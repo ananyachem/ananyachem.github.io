@@ -1,0 +1,89 @@
+body{
+  background-color: #fae0e4;
+  font-family: 'Source Code Pro', monospace;
+}
+
+#mainNavbar .navbar-brand{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+#mainNavbar{
+  font-size: 1.10rem;
+  font-weight: bold;
+}
+
+#headingGroup h1{
+  font-size: 2.75rem;
+}
+
+@media(max-width: 950px){
+  #headingGroup h1{
+    font-size: 2.5rem;
+  }
+}
+
+h2{
+  font-size: 2.25rem;
+}
+
+.content{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+footer{
+  text-align: center;
+  padding: 10px 0;
+}
+
+@media(max-width: 1000px){
+.lead{
+    font-size: 1rem;
+  }
+}
+
+.para{
+  border: 2px solid black;
+  border-style: double;
+  background-color: #ffcad4;
+  padding: 2rem;
+  border-radius: 5px;
+}
+
+.img{
+  border: 2px solid black;
+  border-style: double;
+  background-color: #ffcad4;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.indent{
+  text-indent: 2rem;
+}
+
+.socials{
+  text-align: center;
+  padding-bottom: 5rem;
+}
+
+.socials a{
+  color: #343a40;
+  padding: 1.5rem;
+  background-color: #ffcad4;
+}
+
+.socials a:hover{
+  color: #495057;
+}
+
+.social{
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+.card:hover{
+  box-shadow: 0 0.5em 0.5em -0.4em;
+  transform: translateY(-0.25em);
+}
